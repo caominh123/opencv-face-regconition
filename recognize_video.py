@@ -108,7 +108,7 @@ while True:
 				
 			# draw the bounding box of the face along with the
 			# associated probability
-			if proba < 0.1 or name == 'unknown': 
+			if proba < 0.4 or name == 'unknown': 
 				text = "unknown"
 			else: 
 				text = "{}: {:.2f}%".format(name, proba * 100)
